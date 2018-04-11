@@ -1,13 +1,13 @@
-## Node.js course
+# Node.js course
 
 $npm install
 $npm app
 $node -v
 
-# 1. What is Node.js
-# 2. Installing Node.js
+## 1. What is Node.js
+## 2. Installing Node.js
 
-3. Node Core
+## 3. Node Core
 3.1 Global object
 
 	https://nodejs.org/api/globals.html
@@ -22,7 +22,7 @@ $node -v
 
 3.4 Global timing functions
 
-4. Node Modules
+## 4. Node Modules
 
 4.1 Core Modules
 
@@ -38,7 +38,7 @@ $node -v
 
 4.6 Creating child process with spawn
 
-5. The File System
+## 5. The File System
 
 5.1 Listing directory files
 
@@ -58,7 +58,7 @@ $node -v
 
 5.8 Writable file streams
 
-6. The HTTP Modules
+## 6. The HTTP Modules
 
 6.1 Making a request
 
@@ -74,7 +74,7 @@ $node -v
 
 6.5 Collecting POST data
 
-7. Node Package Manager
+## 7. Node Package Manager
 
 7.1 Installing npms locally
 
@@ -117,7 +117,7 @@ $node -v
 	//to remove module globally 
 	$npm remove -g httpster
 	
-8. Web Servers
+## 8. Web Servers
 
 8.1 The package.json file
 
@@ -144,7 +144,7 @@ $node -v
 
 8.4 Express post bodies and params
 
-9. WebSockets
+## 9. WebSockets
 
 9.1 Creating a WebSocket server
 
@@ -156,7 +156,7 @@ $node -v
 
 	socket.io
 	
-10. Testing and Debugging
+## 10. Testing and Debugging
 
 10.1 Testing with mocha and Chai
 
@@ -199,7 +199,7 @@ $node -v
 
 10.9 Checking server responses with Cheerio
 
-11. Automation and Deployment
+## 11. Automation and Deployment
 
 11.1 Hinting your code with Grunt
 
@@ -259,7 +259,7 @@ $node -v
 	
 	$node --inspect -inspect-brk app
 	
-12. Conclusion
+## 12. Conclusion
 
 	https://www.mongodb.com/
 
