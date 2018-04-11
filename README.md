@@ -1,8 +1,11 @@
 # Node.js course
 
 $npm install
+
 $npm app
+
 $node -v
+
 
 ## 1. What is Node.js
 ## 2. Installing Node.js
