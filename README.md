@@ -80,62 +80,62 @@ $node -v
 
 	https://www.npmjs.com/
 
-	#npm -v
+	$npm -v
 
-	#npm install underscore
+	$npm install underscore
 
-	#npm install async
+	$npm install async
 
-	#npm ls
+	$npm ls
 
-	#npm remove async
+	$npm remove async
 
 7.2 Installing npms globally on Mac
 
 7.3 Installing npms globally on PC
 
-	#npm install -g node-dev
+	$npm install -g node-dev
 
 	https://www.npmjs.com/package/node-dev
 
 	To install globally - run CMD As an Administrator
 
-	#node-dev app.js
+	$node-dev app.js
 
 	http://localhost:3000/
 	
-	#npm install -g jshint
+	$npm install -g jshint
 
-	#jshint app.js
+	$jshint app.js
 	
 7.4 File servers with httpster
 
-	#npm install -g httpster
+	$npm install -g httpster
 
-	#httpster -p 3000 -d ./public
+	$httpster -p 3000 -d ./public
 	
 	//to remove module globally 
-	#npm remove -g httpster
+	$npm remove -g httpster
 	
 8. Web Servers
 
 8.1 The package.json file
 
 	//to create package.json
-	#npm init
+	$npm init
 	
-	#npm install express --save  (express has been added to package.json as a dependency)
+	$npm install express --save  (express has been added to package.json as a dependency)
 	
 	//CORS - Cross Origin Resource Sharing
-	#npm install cors --save
+	$npm install cors --save
 	
-	#npm install body-parser --save
+	$npm install body-parser --save
 	
 	//if there is no package node_modules then:
-	#npm install
+	$npm install
 	
 	//to remove dependency from package.json:
-	#npm remove underscore --save
+	$npm remove underscore --save
 
 
 8.2 Intro to Express
@@ -152,7 +152,7 @@ $node -v
 
 9.3 Creating WebSockets with Socket.IO
 
-	https://caniuse.com/#feat=websockets
+	https://caniuse.com/$feat=websockets
 
 	socket.io
 	
@@ -162,38 +162,38 @@ $node -v
 
 	https://mochajs.org/
 
-	#npm install -g mocha
+	$npm install -g mocha
 	
 	//to run tests in directory /test:
-	#mocha
+	$mocha
 	
-	#npm install chai --save-dev
+	$npm install chai --save-dev
 	
 10.2 Asychronous mocha testing
 
 10.3 Mocking a server with Nock
 
-	#npm install nock --save-dev
+	$npm install nock --save-dev
 
 10.4 Injecting dependencies with rewire
 
 	https://www.npmjs.com/package/rewire
 
-	#npm install rewire --save-dev
+	$npm install rewire --save-dev
 	
 10.5 Advanced testing Sinon spies
 
 	http://sinonjs.org/
 
-	#npm install sinon
+	$npm install sinon
 
 10.6 Advanced testing Sinon stubs
 
 10.7 Code coverage with Istanbul
 
-	#npm install -g istanbul
+	$npm install -g istanbul
 
-	#istanbul cover _mocha
+	$istanbul cover _mocha
 
 10.8 Testing HTTP endpoints with Supertest
 
@@ -203,61 +203,61 @@ $node -v
 
 11.1 Hinting your code with Grunt
 
-	#npm install -g grunt-cli
+	$npm install -g grunt-cli
 
-	#npm install grunt --sav-dev
+	$npm install grunt --sav-dev
 
-	#npm install grunt-contrib-jshint --sav-dev
+	$npm install grunt-contrib-jshint --sav-dev
 
-	#grunt
+	$grunt
 
 11.2 Converting LESS to CSS with Grunt
 
-	#npm install grunt-contrib-less --save-dev
+	$npm install grunt-contrib-less --save-dev
 	
 	//add prefixes for different browsers in css file (flex)
-	#npm install grunt-autoprefixer --sav-dev
+	$npm install grunt-autoprefixer --sav-dev
 
 11.3 Bundling client scripts with Browserify
 
 	http://browserify.org/
 
-	#npm install jquery
+	$npm install jquery
 
-	#npm install grunt-browserify --save-dev
+	$npm install grunt-browserify --save-dev
 
 11.4 Rapid development with Grunt Watches
 
-	#npm install grunt-contrib-watch --sav-dev
+	$npm install grunt-contrib-watch --sav-dev
 	
-	#node app.js
+	$node app.js
 	
 	//in separate tab
-	#grunt watch
+	$grunt watch
 	
 11.5 Automation with npm
 
-	#npm start
+	$npm start
 
 	localhost:3000
 
 11.6 Debugging with NPM
 
-	#npm install
+	$npm install
 
-	#grunt
+	$grunt
 
-	#node app
+	$node app
 
 	localhost:3000
 	
 	//to debug:
-	#node --inspect app
+	$node --inspect app
 	
 	//debugging in Chrome browser:
 	chrom://inspect
 	
-	#node --inspect -inspect-brk app
+	$node --inspect -inspect-brk app
 	
 12. Conclusion
 
